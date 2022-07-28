@@ -1,0 +1,96 @@
+/*!
+ * Yamm!
+ * Yet another megamenu for Bootstrap
+ * http://geedmo.github.com/yamm
+ *
+ * https://github.com/geedmo
+ */
+
+.yamm .navbar-inner, .yamm .container {
+	position: relative;
+}
+.yamm .dropdown-menu {
+	left: auto;
+}
+.yamm .dropdown-menu > li {
+	display: block;
+}
+.yamm .dropdown-submenu .dropdown-menu {
+	left: 100%;
+}
+.yamm .nav.pull-right .dropdown-menu {
+	right: 0;
+}
+.yamm .yamm-content {
+	padding: 20px 30px;
+ *zoom: 1;
+}
+.yamm .yamm-content:before, .yamm .yamm-content:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.yamm .yamm-content:after {
+	clear: both;
+}
+.yamm.navbar .nav > li > .dropdown-menu:after, .yamm.navbar .nav > li > .dropdown-menu:before {
+	display: none;
+}
+.yamm .dropdown.yamm-fullwidth .dropdown-menu {
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+
+@media (max-width: 969px) {
+.yamm .dropdown.yamm-fullwidth .dropdown-menu {
+	width: auto;
+}
+.yamm .yamm-content {
+	padding-left: 0;
+	padding-right: 0;
+}
+.yamm .dropdown-menu > li > ul {
+	display: block;
+}
+}
+.yamm {
+	position: relative;
+}
+.yamm .yamm-content * {
+	color: #000;
+}
+.yamm li {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.yamm > li:after{
+    content: "";
+    display: block;
+    width: 78px;
+    height: 41px;
+    position: absolute;
+    bottom: -38px;
+}
+
+.yamm li a {
+	transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+}
+.yamm.nav>li>a:focus, .yamm.nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.yamm .dropdown-menu li {
+	display: inline-block;
+	float: none;
+	width: 100%;
+	margin-bottom: 0px;
+}

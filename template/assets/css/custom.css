@@ -1,0 +1,120 @@
+.ref-perc
+{
+    font-size: 120px;
+    font-weight: 200;
+}
+
+.ref-perc sup
+{
+    font-size: 25px;
+    top: -2.5em;
+}
+
+.success-block {
+    background-color: #d5ffe3;
+    border: solid 1px #9de376;
+    color: #3c763d;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.error-block {
+    padding: 10px 15px;
+    list-style: circle;
+    margin: 0px 0px 10px 0px;
+    background-color: #ffe7e4;
+    border: solid 1px #ebccd1;
+    color: #a94442;
+    font-size: 14px;
+}
+
+.error-block ul
+{
+    padding: 0px;
+    margin: 0px 5px;
+}
+
+.error-block li {
+
+    margin-left: 10px;
+    list-style: square;
+}
+
+.filter-select {
+    width: auto !important;
+    display: inline-block !important;
+    padding: 6px 12px !important;
+    height: 34px !important;
+}
+
+.dq-filter-link
+{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.dq-filter input, .dq-filter select
+{
+    display: inline-block;
+    padding: 0 8px !important;
+    height: 28px !important;
+    width: auto;
+    margin: 0 !important;
+
+}
+
+.dq-filter select {
+    height: 28px !important;
+}
+
+.dq-filter tr {
+    background-color: transparent !important;
+}
+
+.dq-filter td,th
+{
+    padding: 5px 10px;
+    vertical-align: middle;
+    border: 1px solid rgba(219, 214, 208, .5);
+}
+
+.dq-filter th
+{
+    background: #555
+}
+
+.dq-filter input[type="button"] {
+    color: #fff;
+    background-color: #00ccc1;
+    border-color: #03ccc1;;
+    cursor: pointer;
+    height: 30px;
+    line-height: 0;
+}
+
+.dq-filter input[type="button"]:hover {
+    color: #fff;
+    background-color: #4c8591;
+    border-color: #4c8591;
+}
+
+.dq-filter input[type="button"]:focus, .dq-filter input[type="button"].focus {
+    box-shadow: 0 0 0 3px rgba(23, 162, 184, 0.5);
+}
+
+.dq-filter input[type="button"].disabled, .dq-filter input[type="button"]:disabled {
+    background-color: #639fab;
+    border-color: #639fab;
+}
+
+.dq-filter input[type="button"]:active, .dq-filter input[type="button"].active,
+.show > .dq-filter input[type="button"].dropdown-toggle {
+    background-color: #138496;
+    background-image: none;
+    border-color: #117a8b;
+}
+
+table img {
+    max-width: none;
+}
